@@ -1,0 +1,233 @@
+2025-08-26 07:29:45 189 ConnectionReceiver --> onReceive
+2025-08-26 07:29:45 189 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 07:29:45 189 Network Connected
+2025-08-26 07:29:45 189 offTakeCustomerOrders
+2025-08-26 07:29:45 189 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 07:30:45 195 ConnectionReceiver --> onReceive
+2025-08-26 07:30:45 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 07:30:45 195 Network Connected
+2025-08-26 07:30:46 195 offTakeCustomerOrders
+2025-08-26 07:30:46 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 07:30:48 195 ConnectionReceiver --> onReceive
+2025-08-26 07:30:48 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 07:30:48 195 Network Connected
+2025-08-26 07:30:48 195 offTakeCustomerOrders
+2025-08-26 07:30:48 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 07:30:49 195 deleteTableVisitorsDropdown>> Delete from tbl_visitors_dropdown
+2025-08-26 07:30:49 195 excCommonQueries : Delete from tbl_visitors_dropdown
+2025-08-26 07:30:54 195 DatabaseHandler - deleteImageAnalyticsData delete from tbl_image_analytics where date_value!='2025-08-26'
+2025-08-26 07:30:55 195 excCommonQueries : Delete from tbl_outlet_location where visit_date!='2025-08-26'
+2025-08-26 07:30:55 195 excCommonQueries : Delete from tbl_outlet_data
+2025-08-26 07:31:01 195 DatabaseHandler - deleteProductRecords delete from product_master
+2025-08-26 07:31:01 195 DatabaseHandler - deleteChannelListing delete from tbl_channel_listing
+2025-08-26 07:31:01 195 DatabaseHandler - deleteIqPackInfo delete from tbl_iq_pack_info
+2025-08-26 07:31:01 195 DatabaseHandler - deleteKeywordSearchInfo delete from tbl_solar_search
+2025-08-26 08:04:55 195 ConnectionReceiver --> onReceive
+2025-08-26 08:04:55 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:04:55 195 Network Connected
+2025-08-26 08:04:55 195 offTakeCustomerOrders
+2025-08-26 08:04:55 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:04:58 195 ConnectionReceiver --> onReceive
+2025-08-26 08:04:58 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:04:58 195 Network Connected
+2025-08-26 08:04:58 195 offTakeCustomerOrders
+2025-08-26 08:04:58 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:05:53 195 java.lang.IllegalStateException: Fragment q{f705d78} (1851410c-40f9-4086-819e-a4dbea4b841c) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q$h.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:75)
+	at ma.x1.c(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.t1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:05:53 195 java.lang.IllegalStateException: Fragment q{f705d78} (1851410c-40f9-4086-819e-a4dbea4b841c) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q.j4(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:7)
+	at ta.q$e.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:19)
+	at ma.x1.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.r1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:05:53 195 java.lang.IllegalStateException: Fragment q{27214a8} (fd3f5b89-e948-4440-8786-333b934f3124) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q.j4(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:7)
+	at ta.q$e.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:19)
+	at ma.x1.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.r1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:05:53 195 java.lang.IllegalStateException: Fragment q{27214a8} (fd3f5b89-e948-4440-8786-333b934f3124) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q$h.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:75)
+	at ma.x1.c(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.t1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:15:31 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:31 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:31 195 Network Connected
+2025-08-26 08:15:32 195 offTakeCustomerOrders
+2025-08-26 08:15:32 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:35 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:35 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:35 195 Network Connected
+2025-08-26 08:15:35 195 offTakeCustomerOrders
+2025-08-26 08:15:35 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:36 195 DatabaseHandler - deleteImageAnalyticsData delete from tbl_image_analytics where date_value!='2025-08-26'
+2025-08-26 08:15:38 195 excCommonQueries : Delete from tbl_outlet_location where visit_date!='2025-08-26'
+2025-08-26 08:15:38 195 excCommonQueries : Delete from tbl_outlet_data
+2025-08-26 08:15:38 195 DatabaseHandler - deleteBeats delete from beat_selection where beat_selected_date = '26/08/2025'
+2025-08-26 08:15:38 195 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at v8.i$b.b(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:72)
+	at com.google.gson.d.j(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:21)
+	at com.google.gson.d.g(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at com.google.gson.d.i(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:10)
+	at com.google.gson.d.h(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at com.hul.sambhav.io.f$b.e(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:88)
+	at wa.j0$c.onError(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:29)
+	at ma.k0.B(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:4)
+	at ma.k.onErrorResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.Request.deliverError(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:9)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:41)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at z8.a.b(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:50)
+	at v8.i$b.b(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:20)
+	... 18 more
+
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/shared_prefs DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/databases DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/files DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/cache DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/no_backup DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/app_webview DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/app_textures DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/app_ DELETED
+2025-08-26 08:15:40 195 File /data/data/APP_PACKAGE/code_cache DELETED
+2025-08-26 08:15:40 195 DatabaseHandler - deleteBeatInfoData delete from beat_selection
+2025-08-26 08:15:40 195 android.database.sqlite.SQLiteReadOnlyDatabaseException: attempt to write a readonly database (code 1032)
+	at io.requery.android.database.sqlite.SQLiteConnection.nativeExecuteForChangedRowCount(Native Method)
+	at io.requery.android.database.sqlite.SQLiteConnection.executeForChangedRowCount(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:34)
+	at io.requery.android.database.sqlite.SQLiteSession.executeForChangedRowCount(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:16)
+	at io.requery.android.database.sqlite.SQLiteStatement.executeUpdateDelete(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:21)
+	at io.requery.android.database.sqlite.SQLiteDatabase.executeSql(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:9)
+	at io.requery.android.database.sqlite.SQLiteDatabase.execSQL(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at kb.e.k(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:43)
+	at com.hul.sambhav.salesJourney.ui.login.SalesMainActivity.J3(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:198)
+	at com.hul.sambhav.salesJourney.ui.login.SalesMainActivity$d.onClick(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:7)
+	at androidx.appcompat.app.AlertController$c.handleMessage(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:38)
+	at android.os.Handler.dispatchMessage(Handler.java:112)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:15:40 195 SalesMainActivity logout  Logout Successfully
+2025-08-26 08:15:42 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:42 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:42 195 Network Connected
+2025-08-26 08:15:42 195 offTakeCustomerOrders
+2025-08-26 08:15:42 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:45 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:45 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:45 195 Network Connected
+2025-08-26 08:15:45 195 offTakeCustomerOrders
+2025-08-26 08:15:45 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:45 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:45 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:45 195 Network Connected
+2025-08-26 08:15:45 195 offTakeCustomerOrders
+2025-08-26 08:15:45 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:58 195 excCommonQueries : Delete from tbl_position_details
+2025-08-26 08:15:58 195 SalesmanLoginActivity - callLoginApi - 800075263 login Successfully
+2025-08-26 08:15:58 195 ConnectionReceiver --> onReceive
+2025-08-26 08:15:58 195 intent --> android.net.conn.CONNECTIVITY_CHANGE
+2025-08-26 08:15:58 195 Network Connected
+2025-08-26 08:15:58 195 offTakeCustomerOrders
+2025-08-26 08:15:58 195 DatabaseHandler - updateOffTakeOrderDetails select * from tbl_off_take_customer_order where status=0 limit 1
+2025-08-26 08:15:58 195 deleteTableVisitorsDropdown>> Delete from tbl_visitors_dropdown
+2025-08-26 08:15:58 195 excCommonQueries : Delete from tbl_visitors_dropdown
+2025-08-26 08:16:02 195 DatabaseHandler - deleteImageAnalyticsData delete from tbl_image_analytics where date_value!='2025-08-26'
+2025-08-26 08:16:03 195 excCommonQueries : Delete from tbl_outlet_location where visit_date!='2025-08-26'
+2025-08-26 08:16:03 195 excCommonQueries : Delete from tbl_outlet_data
+2025-08-26 08:16:08 195 DatabaseHandler - deleteProductRecords delete from product_master
+2025-08-26 08:16:08 195 DatabaseHandler - deleteChannelListing delete from tbl_channel_listing
+2025-08-26 08:16:08 195 DatabaseHandler - deleteIqPackInfo delete from tbl_iq_pack_info
+2025-08-26 08:16:08 195 DatabaseHandler - deleteKeywordSearchInfo delete from tbl_solar_search
+2025-08-26 08:16:47 195 java.lang.IllegalStateException: Fragment q{ebe43ed} (35b78991-b269-4776-9874-3572ab948568) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q.j4(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:7)
+	at ta.q$e.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:19)
+	at ma.x1.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.r1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
+2025-08-26 08:16:47 195 java.lang.IllegalStateException: Fragment q{ebe43ed} (35b78991-b269-4776-9874-3572ab948568) not attached to an activity.
+	at androidx.fragment.app.Fragment.Y2(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:32)
+	at ta.q$h.a(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:75)
+	at ma.x1.c(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:1)
+	at ma.t1.onResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:5)
+	at ka.y.deliverResponse(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:3)
+	at com.android.volley.ExecutorDelivery$ResponseDeliveryRunnable.run(r8-map-id-d25f4e1cee0030550b0054a73cca3d570f3bfd1216cc2d93d3e76d5a800b12d6:31)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loopOnce(Looper.java:268)
+	at android.os.Looper.loop(Looper.java:384)
+	at android.app.ActivityThread.main(ActivityThread.java:8997)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+
